@@ -4,11 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulletin-board.css">
     <title>Document</title>
 </head>
 <body>
-    <main>
-        
-    </main>
+    <div class="wrapper">
+        <header>
+            <h1>掲示板</h1>
+        </header>
+        <main>
+            <div class="input-block">
+                <div class="nickname">
+                    ニックネーム:<input type="text">
+                </div>
+
+                <div class="contents">
+                    本文:<textarea name="contents" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="submit-button">
+                    <button id="post">投稿</button>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <div class="lists-block">
+                <h2>投稿一覧</h2>
+                <ul class="lists">
+                    <li class="card">
+                        <div class="left">
+                            こんにちは
+                        </div>
+                        <div class="raight">
+                            <div class="button-block">
+                                <button class="edit">編集</button>
+                                <button class="delete">削除</button>
+                            </div>
+                            <p class="name">たらこさん</p>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <div class="left">
+                            こんにちは
+                        </div>
+                        <div class="raight">
+                            <div class="button-block">
+                                <button class="edit">編集</button>
+                                <button class="delete">削除</button>
+                            </div>
+                            <p class="name">たらこさん</p>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <div class="left">
+                            こんにちは
+                        </div>
+                        <div class="raight">
+                            <div class="button-block">
+                                <button class="edit">編集</button>
+                                <button class="delete">削除</button>
+                            </div>
+                            <p class="name">たらこさん</p>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        </main>
+    </div>
+    <script src="https:code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
