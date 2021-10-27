@@ -14,10 +14,15 @@ main .nickname input{
 
 main .contents{
     margin-top: 20px;
+    display: flex;
+}
+
+main .contents p{
+    width: 10%;
 }
 
 main .contents textarea{
-    width: 100%;
+    width: 90%;
 }
 
 main .submit-button {
